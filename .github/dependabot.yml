@@ -1,11 +1,10 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
-    directory: "/projectA"
+  - package-ecosystem: npm
+    directory: /projectA
     schedule:
-      interval: "weekly"
-
-  - package-ecosystem: "npm"
-    directory: "/projectB"
+      interval: weekly
+  - package-ecosystem: npm
+    directory: /projectB
     schedule:
-      interval: "weekly"
+      interval: weekly
